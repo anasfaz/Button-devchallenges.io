@@ -20,9 +20,9 @@ const ButtonPage = () => {
       </div>
       <div className="py-5">
         <p className="mb-4"></p>
-        <Button disableShodw />
+        <Button disableShadow />
       </div>
-      <div className="py-5 flex justify-between">
+      <div className="py-5 grid grid-cols-2 grid-rows-1 gap-4">
         <div>
         <p className="mb-4"></p>
         <Button disabled />
@@ -31,6 +31,32 @@ const ButtonPage = () => {
         <div className="">
           <p className="mb-4"></p>
           <Button disabled variant='text' />
+        </div>
+      </div>
+      <div className="py-5 grid grid-cols-2 grid-rows-1 gap-4">
+        <div>
+        <p className="mb-4"></p>
+        <Button startIcon='local_grocery_store' />
+        </div>
+       
+        <div className="">
+          <p className="mb-4"></p>
+          <Button  />
+        </div>
+      </div>
+
+      <div className="py-5 grid grid-cols-3 grid-rows-1 gap-12">
+        <div>
+        <p className="mb-4"></p>
+          <Button />
+        </div>
+        <div>
+        <p className="mb-4"></p>
+          <Button />
+        </div>
+        <div >
+        <p className="mb-4"></p>
+          <Button startIcon='local_grocery_store'/>
         </div>
       </div>
     </div>
