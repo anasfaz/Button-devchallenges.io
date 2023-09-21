@@ -12,7 +12,26 @@ const ButtonPage = () => {
       </div>
       <div>
         <p className="mb-4"></p>
-        <Button />
+        <Button variant="outline" />
+      </div>
+      <div className="py-5">
+        <p className="mb-4"></p>
+        <Button variant="text" />
+      </div>
+      <div className="py-5">
+        <p className="mb-4"></p>
+        <Button disableShodw />
+      </div>
+      <div className="py-5 flex justify-between">
+        <div>
+        <p className="mb-4"></p>
+        <Button disabled />
+        </div>
+       
+        <div className="">
+          <p className="mb-4"></p>
+          <Button disabled variant='text' />
+        </div>
       </div>
     </div>
   );
