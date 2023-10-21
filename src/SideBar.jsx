@@ -2,9 +2,8 @@ const SideBar = () => {
   return (
     <div className="w-60  h-full bg-[#FAFBFD]">
       <div className="p-7 pb-9">
-        <img className="w-4 h-5" src="./assets/react.svg" alt="logo" />
         <span
-          className="text-[#F7542E] text-[13px] not-italic font-semibold leading-[normal];
+          className="text-[#F7542E] text-[24px] not-italic font-semibold leading-[normal];
             font-family: Poppins"
         >
           Dev
@@ -13,7 +12,7 @@ const SideBar = () => {
           className="text-[#090F31] leading-[normal] not-italic
           font-semibold font-family: Poppins"
         >
-          challenge
+          Challenge
         </span>
       </div>
 
